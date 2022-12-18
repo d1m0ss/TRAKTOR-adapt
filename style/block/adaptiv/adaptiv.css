@@ -1,0 +1,52 @@
+@media screen and (max-width: 1115px) {
+    .snow-header__navigation-wrapper,.snow-header__logo-wrapper,
+    .call-information__number,.opener__list-wrapper,.snow__card-wrapper,
+    .body__wrapper,.works__card,.footer__wrapper,.footer__logo,.footer__copywrite,
+    .header__end-information,.footer__midle-social,.forma__form{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .forma__form,.opener__title-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .opener__title-wrapper{
+    text-align: center;
+    }
+    .horisontal-line{
+        margin: 16px auto 40px;
+    }
+    h1,h2{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .works_card-wrapper{
+        position: relative;
+        max-width: max-content;
+    }
+    .works-card__img-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .works-card__img-wrapper::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.60);
+        border-radius: 16px;
+    }
+    .works__card-text-wrapper{
+        position: absolute;
+    }
+
+    .snow-header__midle-icons{
+        margin: 0;
+    }
+}
