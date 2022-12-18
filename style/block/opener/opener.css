@@ -1,0 +1,120 @@
+.snow-header{
+    background-image: url(/style/img/header/MAIN-TRAKTOR.png);
+    background-repeat: no-repeat;
+    background-position: 40vw 0;
+}
+
+.opener__title{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    background-position: center ;
+    margin-top: 100px;
+}
+
+.opener__title_blue{
+    color: #0586E8;
+}
+
+.opener_horisontal-line{
+    background: linear-gradient(45deg, #1D4FCF 0%, #0586E8 100%);
+}
+
+.opener__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.opener__list-wrapper{
+    margin: 56px 0 149px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.opener__item-wrapper{
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.opener__item-wrapper:last-child{
+    margin-bottom: 0;
+}
+
+.opener__list-image-wrapper{
+    margin: 0 15px 0 0;
+}
+
+.opener__list-item{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    align-self: center;
+}
+
+.opener__text_bold{
+    font-weight: 600;
+}
+
+.opener__forma-wrapper{
+    box-sizing: content-box;
+    padding: 50px;
+    box-shadow: 0px 6px 20px rgba(56, 149, 235, 0.29);
+    border-radius: 16px;
+    background: rgba(56, 149, 235, 0.09);
+}
+
+.forma__form{
+    letter-spacing: 1px;
+}
+
+.opener__forma-border{
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.opener__forma-input{
+    border: none;
+    border-bottom: 2px solid #1D4FCF;
+    font-weight: 600;
+    outline: none;
+    letter-spacing: 1px;
+    background-color: transparent;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.opener__forma-text{
+    font-weight: 700;
+    position: absolute;
+    opacity: 0.5;
+    top: -15px;
+    z-index: -1;
+}
+
+.opener__forma-button{
+    font-weight: 700;
+    font-size: 16px;
+    padding: 9px;
+    letter-spacing: 1px;
+    border-radius: 15%;
+    border: 2px solid #0586E8;
+    box-shadow: 0px 6px 20px rgba(56, 149, 235, 0.29);
+    border-radius: 16px;
+    transition: 0.3s;
+    background: rgba(56, 149, 235, 0.09);
+}
+
+.opener__forma-button:hover{
+    background: #1D4FCF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.forma__title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+

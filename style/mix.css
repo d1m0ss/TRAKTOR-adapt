@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1199px;
+    margin: 40px auto;
+}
+
+.text{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal; 
+    list-style-type: none;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.title{
+    color: #0586E8;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+}
+
+.horisontal-line{
+    max-width: 80px;
+    width: 100%;
+    min-height: 2px;
+    margin: 16px 0 40px 0;
+    background: #C4C4C4;
+    border-radius: 6px;
+    border: 0;
+}

@@ -1,0 +1,67 @@
+.snow-table{
+    width: 100%;
+    margin: 141px 0 0 0;
+}
+
+.snow-table__title{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #0586E8;
+}
+
+.snow-table__horisontal-line{
+    margin: 16px auto 40px auto;
+}
+
+.snow-table__table{
+    width: 100%;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px rgba(141, 149, 165, 0.23);
+    margin-bottom: 40px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+.snow-table__table-header{
+    box-shadow: 0px 4px 4px rgba(141, 149, 165, 0.1);
+    position: sticky;
+}
+
+.snow-table__table-row{
+    height: 65px;
+}
+
+.table-cel{
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #ECF6FD;
+}
+
+.snow-table__table-head{
+    color: #0586E8;
+}
+
+.snow-table__button{
+    display: block;
+    margin: 40px auto 0;
+    padding: 15px 103px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    background: linear-gradient(45deg, #1D4FCF 0%, #0586EB 100%);
+    box-shadow: 0px 6px 20px rgba(56, 149, 235, 0.29);
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+}
+
+.snow-table__button-link{
+    text-decoration: none;
+}
